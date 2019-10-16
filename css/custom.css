@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen|Quattrocento|Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin|Raleway');
+/*
+font-family: 'Raleway', sans-serif;
+font-family: 'Libre Franklin', sans-serif;
+font-family: 'Oxygen', sans-serif;
+*/
+
+body{
+	font-family: 'Libre Franklin', sans-serif;
+	overflow-x: hidden;
+	position: relative;
+}
+.backer{
+	position: absolute;
+	height: 15px;
+	background: #FFC107;
+	top: 8vh;
+	width: 100%;
+	z-index: 9999;
+}
+.upperDiv{
+	position: absolute;
+	top: 10vh;
+	right: 10vw;
+}
+.firstDiv{
+	background: #FFC107;
+	padding: 1em 2em;
+ 	width: 275px;
+}
+.secDiv{
+	width: 275px;
+	margin: 1em 0;
+	background: green;
+	color: white;
+	padding: 1px 0;
+}
+.secDiv p{
+	text-align: center;
+	margin: 0px;
+	padding: 8px 0;
+	font-size: 16px;
+}
+.thirdDiv{
+	width: 275px;
+	margin: 1em 0;
+	background: linear-gradient(#e6dede, #d0c9ca);
+   box-shadow: 0 0 7px #8080807d;
+   border-left: 10px solid #91203e;
+	color: black;
+	padding: 1px 0;
+}
+.demoCaret{
+	right: 20px!important;
+	position: absolute!important;
+	top: 17px!important;
+}
+.thirdDiv p a{
+	
+}
+.thirdDiv p{
+	position: relative;
+	text-align: center;
+	margin: 0px;
+	padding: 8px 0;
+	font-size: 16px;
+}
+.firstDiv ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.firstDiv ul li:first-child{
+	margin: 0 0 1em 0;
+}
+.firstDiv ul li {
+	background: white;
+	padding: 8px 20px;
+	vertical-align: middle;
+}
+.footer{
+	background: #91203e;
+	color: white;
+	padding: 7px 0;
+}
+.footer p{
+	margin:0px;
+}
+.footerLink{
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	justify-content: space-around;
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+.footerLink li a, .footerLink li a:hover{
+	color: white;
+	text-decoration: none;
+	font-size: 13px;
+}
+
+header{
+	background: #91203e;
+}
+.logo{
+	text-align: center;
+	padding: 10px 0;
+}
+.logoIcon{
+	cursor: pointer;
+	width: 100%;
+}
+
+.caret{
+	position: absolute;
+	top: 50%;
+	right: 0;
+	color: white;
+}
+.carousel-inner, .carousel{
+	height: 87vh;
+}
+
+@media(max-width: 767.98px){
+	.logoIcon {		
+		width: 60%!important;
+		height: 30px;
+	}
+	.xsPadding{
+		padding: 0px;
+	}
+	.stellarnav.light .menu-toggle {
+		font-size: 15px!important;
+	}
+}
+
+@media(min-width: 768px) and (max-width: 1024px){
+	.stellarnav.light .menu-toggle {
+		color: white!important;
+		text-align: left!important;
+	}
+	.stellarnav.mobile.light ul {
+		background: #91203e!important;
+		box-shadow: 0 0 7px 2px lightgrey;
+		z-index: 9999;
+	}
+	.logoIcon {
+		width: 45%;
+		height: 45px;
+		margin: 0 auto;
+	}
+}
